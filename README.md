@@ -22,10 +22,12 @@ A full-stack agriculture platform designed to assist farmers with intelligent, c
 * **Status:** Deployed live on Vercel.
 
 ### 2. SmartInvoice
-*(Replace this text with a brief 1-2 sentence description of SmartInvoice)*
+A full-stack SaaS platform that uses AI models to automatically extract data from unstructured invoice PDFs and images. It features secure authentication and a real-time dashboard for tracking billing history.
+* *Status:* Deployed live on Vercel.
 
 ### 3. InsightLens
-*(Replace this text with a brief 1-2 sentence description of InsightLens)*
+A full-stack SaaS platform that uses AI models to automatically extract data from unstructured invoice PDFs and images. It features secure authentication and a real-time dashboard for tracking billing history.
+* **Status:** Deployed live on Vercel.
 
 ---
 
