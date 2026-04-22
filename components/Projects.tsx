@@ -1,15 +1,23 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: "Banana Leaf Disease Detection",
+    category: "AI Computer Vision",
+    tech: "Python, TensorFlow, React, FastAPI",
+    description: "Real-time image processing and classification to assist farmers with early disease detection and treatment.",
+    img: "/images/banana.png",
+    link: "#",
+    github: "#"
+  },
+  {
     title: "InsightLens",
     category: "AI Vision App",
     tech: "Kotlin, Jetpack Compose, Gemini 2.5",
     description: "Real-time Android vision assistant to identify objects and read text with multilingual support.",
-    img: "https://picsum.photos/1000/800?random=1",
+    img: "/images/insight.png",
     link: "#",
     github: "#"
   },
@@ -18,7 +26,7 @@ const projects = [
     category: "AI Agriculture Platform",
     tech: "React.js, Node.js, GenAI",
     description: "Connecting farmers to buyers with a voice-enabled AI chatbot for disease diagnosis.",
-    img: "https://picsum.photos/1000/800?random=2",
+    img: "/images/kisanlink.png",
     link: "#",
     github: "#"
   },
@@ -27,7 +35,7 @@ const projects = [
     category: "SaaS Dashboard",
     tech: "React, Supabase, AI Parsing",
     description: "Automating invoice data extraction from unstructured PDFs using high-fidelity AI models.",
-    img: "https://picsum.photos/1000/800?random=3",
+    img: "/images/saas.png",
     link: "#",
     github: "#"
   },
@@ -36,7 +44,7 @@ const projects = [
     category: "ML Model",
     tech: "Python, Scikit-learn, AI/ML",
     description: "Historical dataset analysis yielding 85% accuracy in forecasting flight delays.",
-    img: "https://picsum.photos/1000/800?random=4",
+    img: "/images/flight.png",
     link: "#",
     github: "#"
   }
@@ -54,7 +62,8 @@ const Projects: React.FC = () => {
           transition={{ delay: idx % 2 * 0.2 }}
           className="group relative"
         >
-          <div className="overflow-hidden mb-8 aspect-[4/5] bg-zinc-100">
+          {/* Fixed aspect ratio for YouTube style thumbnails */}
+          <div className="overflow-hidden mb-8 aspect-video bg-zinc-100 rounded-xl shadow-lg border border-white/5">
             <img 
               src={project.img} 
               alt={project.title} 
@@ -72,10 +81,10 @@ const Projects: React.FC = () => {
                 <a href={project.link} className="hover:text-zinc-400 transition-colors"><ExternalLink size={20} /></a>
               </div>
             </div>
-            <p className="text-zinc-600 font-medium tracking-tight leading-relaxed max-w-md">
+            <p className="text-zinc-400 font-medium tracking-tight leading-relaxed max-w-md">
               {project.description}
             </p>
-            <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-zinc-400">
+            <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-zinc-500">
               {project.tech}
             </p>
           </div>

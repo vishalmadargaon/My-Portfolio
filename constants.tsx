@@ -20,11 +20,27 @@ export const NAV_LINKS = [
 
 export const PROJECTS: Project[] = [
   {
+    title: 'Banana Leaf Disease Detection',
+    pitch: 'AI-powered computer vision model to identify and classify diseases in banana leaves.',
+    tech: ['Python', 'TensorFlow', 'React', 'FastAPI'],
+    feature: 'Real-time image processing and classification to assist farmers with early disease detection and treatment.',
+    image: '/images/banana.png',
+    link: '#'
+  },
+  {
+    title: 'Flight Delay Prediction',
+    pitch: 'Machine learning model to predict flight delays based on weather and historical flight data.',
+    tech: ['Python', 'Scikit-Learn', 'Pandas', 'Flask'],
+    feature: 'Analyzes multiple data points to provide accurate delay probabilities for travelers and airlines.',
+    image: '/images/flight.png',
+    link: '#'
+  },
+  {
     title: 'KisanLink',
     pitch: 'Empowering agriculture with real-time AI crop analysis and farmer-centric data insights.',
     tech: ['React', 'Tailwind CSS', 'Node.js', 'Gemini API'],
     feature: 'Architected a platform connecting farmers to buyers with a Voice-Enabled AI Chatbot for disease diagnosis.',
-    image: '/kisan.jpg',
+    image: '/images/kisanlink.png',
     link: '#'
   },
   {
@@ -32,7 +48,7 @@ export const PROJECTS: Project[] = [
     pitch: 'An intelligent Android vision assistant that identifies objects and reads text in multiple languages.',
     tech: ['Kotlin', 'Jetpack Compose', 'Gemini 2.5 Flash-Lite'],
     feature: 'Implemented real-time visual perception with multilingual support (Kannada, Telugu) and sub-1s latency.',
-    image: '/lens.jpg', // Changed to avoid spaces. Rename your file to 'insight.jpg' or 'ailens.jpg'
+    image: '/images/insight.png',
     link: '#'
   },
   {
@@ -40,15 +56,7 @@ export const PROJECTS: Project[] = [
     pitch: 'Automated SaaS dashboard for high-accuracy invoice data extraction from unstructured PDFs.',
     tech: ['React', 'Supabase', 'Gemini API', 'Node.js'],
     feature: 'Built an end-to-end RAG pipeline for extracting complex financial entities from scanned documents.',
-    image: '/invoice.jpg',
-    link: '#'
-  }, // <--- THIS COMMA WAS MISSING
-  {
-    title: 'Flight Delay Prediction',
-    pitch: 'AI-powered flight schedule analysis',
-    tech: ['Python', 'Machine Learning', 'Flask', 'React'],
-    feature: 'Predicts flight delays with high accuracy using historical data.',
-    image: '/flight.jpg',
+    image: '/images/saas.png',
     link: '#'
   }
 ];

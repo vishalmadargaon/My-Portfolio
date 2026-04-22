@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Project } from '../types';
@@ -22,7 +21,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
         
-        <div className="absolute top-4 left-4 flex gap-2">
+        {/* Mobile Fix: Added flex-wrap and pr-4 so tech tags don't overflow */}
+        <div className="absolute top-4 left-4 flex flex-wrap gap-2 pr-4">
           {project.tech.slice(0, 3).map(t => (
             <span key={t} className="px-2 py-1 bg-black/50 backdrop-blur-md rounded-md text-[10px] font-bold uppercase tracking-wider border border-white/10">
               {t}
@@ -31,10 +31,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         </div>
       </div>
 
-      <div className="p-8 flex-1 flex flex-col">
-        <h3 className="text-2xl font-bold mb-3 group-hover:text-indigo-400 transition-colors flex items-center justify-between">
+      <div className="p-5 md:p-8 flex-1 flex flex-col">
+        <h3 className="text-xl md:text-2xl font-bold mb-3 group-hover:text-indigo-400 transition-colors flex items-center justify-between">
           {project.title}
-          <Sparkles size={20} className="text-yellow-400 opacity-0 group-hover:opacity-100 transition-opacity" />
+          <Sparkles size={20} className="text-yellow-400 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
         </h3>
         <p className="text-gray-400 text-sm mb-6 flex-1 italic leading-relaxed">
           "{project.pitch}"
@@ -49,7 +49,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           </p>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 md:gap-4">
           <a href={project.link} className="flex-1 px-4 py-2 bg-white text-black text-center rounded-lg text-sm font-bold hover:bg-gray-200 transition-colors flex items-center justify-center gap-2">
             Case Study <ExternalLink size={14} />
           </a>

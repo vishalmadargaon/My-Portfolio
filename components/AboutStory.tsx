@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -23,31 +22,31 @@ const AboutStory: React.FC = () => {
             className="space-y-12"
           >
             <h2 className="text-4xl md:text-6xl font-grotesk font-light leading-tight tracking-tight">
-              A bridge between <span className="font-black italic">mobile intuition</span> and <span className="font-black italic">artificial cognition</span>.
+              A bridge between <span className="font-black italic">scalable web infrastructure</span> and <span className="font-black italic">artificial cognition</span>.
             </h2>
             
             <p className="text-xl md:text-2xl text-white/70 font-light leading-relaxed max-w-3xl">
-              Based in Bengaluru, I immerse myself in the intersection of scalable mobile architectures and the frontier of Generative AI. 
-              My journey is defined by a relentless pursuit of shipping real-time, AI-driven software solutions that transform complex workflows into seamless user experiences.
+              Based in Bengaluru, I immerse myself in the intersection of full-stack engineering and the frontier of Generative AI. 
+              My journey is defined by a relentless pursuit of architecting robust backend pipelines, intuitive frontends, and integrating cutting-edge LLMs to solve complex, real-world problems.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            <div className="h-[500px] bg-zinc-900 overflow-hidden group">
+            <div className="relative h-[500px] bg-zinc-900 overflow-hidden group">
               <img 
-                src="/2.jpg" 
+                src="/images/glass.png" 
                 alt="Architecture" 
                 className="w-full h-full object-cover opacity-50 group-hover:opacity-80 group-hover:scale-105 transition-all duration-700"
               />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                <span className="text-[10px] font-black uppercase tracking-[0.5em] opacity-40">VISION</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.5em] text-white opacity-40">VISION</span>
               </div>
             </div>
             <div className="flex flex-col justify-end">
               <p className="text-sm uppercase tracking-widest text-white/40 mb-4">MINDSET</p>
               <p className="text-lg font-light leading-relaxed">
-                Whether it's optimizing on-device AI inference using Kotlin or architecting RAG pipelines for personalized interaction, 
-                I focus on the technical excellence required to make "smart" apps truly intelligent.
+                Whether it's building complex computer vision models for agriculture, engineering high-latency REST APIs, or architecting advanced RAG pipelines, 
+                I focus on the technical excellence required to make software not just functional, but deeply intelligent.
               </p>
             </div>
           </div>
@@ -56,7 +55,7 @@ const AboutStory: React.FC = () => {
             <div>
               <h4 className="text-xs font-black uppercase tracking-[0.2em] mb-4">Education</h4>
               <p className="text-sm font-bold uppercase tracking-wide">VTU — B.E. CS</p>
-              <p className="text-[10px] opacity-60 uppercase tracking-widest mt-1">Expected June 2026 | GPA 8.5</p>
+              <p className="text-[10px] opacity-60 uppercase tracking-widest mt-1">Computer Science Graduate</p>
             </div>
             <div>
               <h4 className="text-xs font-black uppercase tracking-[0.2em] mb-4">Location</h4>
@@ -65,7 +64,7 @@ const AboutStory: React.FC = () => {
             </div>
             <div>
               <h4 className="text-xs font-black uppercase tracking-[0.2em] mb-4">Focus</h4>
-              <p className="text-sm font-bold uppercase tracking-wide">Android & GenAI</p>
+              <p className="text-sm font-bold uppercase tracking-wide">Full Stack Web & GenAI</p>
               <p className="text-[10px] opacity-60 uppercase tracking-widest mt-1">Building Future Systems</p>
             </div>
           </div>

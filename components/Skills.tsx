@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -74,11 +73,11 @@ const Skills: React.FC = () => {
         </div>
         <div className="aspect-video bg-zinc-900 overflow-hidden relative group">
            <img 
-            src="https://picsum.photos/1000/600?grayscale" 
+            src="/images/image.png" 
             alt="Workspace" 
-            className="w-full h-full object-cover opacity-40 group-hover:opacity-60 transition-opacity" 
+            className="w-full h-full object-cover object-[center_20%] opacity-40 group-hover:opacity-60 transition-opacity" 
           />
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <span className="text-[10px] font-black uppercase tracking-[1em] rotate-90">CONTINUOUS LEARNING</span>
           </div>
         </div>
