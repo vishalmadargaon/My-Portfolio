@@ -81,13 +81,13 @@ const App: React.FC = () => {
 
       {/* --- DESKTOP HEADER --- */}
       <header className="fixed top-0 left-0 w-full p-6 md:p-10 z-40 flex justify-between items-center mix-blend-difference">
-        <motion.div 
+        <motion.h1 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-xl md:text-2xl font-black tracking-tighter uppercase"
         >
           Vishal Madargaon
-        </motion.div>
+        </motion.h1>
 
         <div className="flex items-center space-x-10">
           {/* Navigation Links */}
