@@ -1,0 +1,7 @@
+{
+  "name": "Vishal Madargaon Portfolio",
+  "description": "A high-end, immersive portfolio clone based on Janis Sne's design language, featuring Android and GenAI expertise.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

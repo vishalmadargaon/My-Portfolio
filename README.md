@@ -1,0 +1,54 @@
+# Vishal's Developer Portfolio 🚀
+
+**Live Portfolio:** [my-portfolio-eight-teal-50.vercel.app](my-portfolio-eight-teal-50.vercel.app)
+
+Hi, I'm Vishal! AI Engineer specified in Building Scalable applications.
+
+## 🛠️ Tech Stack
+* **Frontend:** HTML5, CSS3, Tailwind CSS
+* **Backend:** Node.js, FastAPI
+* **Mobile:** Android Development (Android Studio)
+* **Tools & Deployment:** Git, GitHub, Vercel
+
+## 💼 Experience
+* **Android Development Intern** @ Mind Matrix
+* **Full Stack Developer Intern** @ Navoditha Infotech Pvt. Ltd.
+* **Mobile Development Intern** @ UDR Crafts
+
+## 📂 Featured Projects
+
+### 1. KisanLink
+A full-stack agriculture platform designed to assist farmers with intelligent, contextual agricultural insights. 
+* **Status:** Deployed live on Vercel.
+
+### 2. SmartInvoice
+A full-stack SaaS platform that uses AI models to automatically extract data from unstructured invoice PDFs and images. It features secure authentication and a real-time dashboard for tracking billing history.
+* *Status:* Deployed live on Vercel.
+
+### 3. InsightLens
+A full-stack SaaS platform that uses AI models to automatically extract data from unstructured invoice PDFs and images. It features secure authentication and a real-time dashboard for tracking billing history.
+* **Status:** Deployed live on Vercel.
+
+---
+
+## 💻 Run This Portfolio Locally
+
+If you want to clone and run this portfolio project on your local machine, follow these steps:
+
+**Prerequisites:** * Node.js installed
+
+**1. Install dependencies:**
+`npm install`
+
+**2. Run the development server:**
+`npm run dev`
+
+*(Note: If your project uses a different command to start, like `npm start`, replace it above.)*
+
+---
+
+## 📫 Let's Connect
+* **LinkedIn:** [https://www.linkedin.com/in/vishal-madargaon-303503324/](https://www.linkedin.com/in/vishal-madargaon-303503324/)
+* **GitHub:** [https://github.com/vishalmadargaon](https://github.com/vishalmadargaon)
+* **Email:** [vishalmadargaon120@gmail.com](vishalmadargaon120@gmail.com)
+*
